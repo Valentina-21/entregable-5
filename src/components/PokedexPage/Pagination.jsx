@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Pagination = ({ cardsPerPage, totalCards, paginate, currentPage }) => {
   const pageNumbers = [];

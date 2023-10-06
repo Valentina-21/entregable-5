@@ -19,7 +19,7 @@ const HomePage = () => {
       <header className="homepage__header">
         <img
           className="homepage__header__img"
-          src="./images/pokedex.jpeg"
+          src="./images/pokedex.png"
           alt=""
         />
       </header>
