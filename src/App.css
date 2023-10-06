@@ -412,10 +412,13 @@
 }
 .pokedexId__baseinfo {
     display: flex;
+    white-space: nowrap;
+    position: relative;
 }
 
 .pokedexId__stats__bar {
-    margin-top: 3em;
+    padding: 1px 0;
+    margin-top: 1em;
     height: 18px;
     background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
 }
