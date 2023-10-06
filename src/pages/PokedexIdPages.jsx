@@ -61,7 +61,7 @@ const PokedexIdPages = () => {
               <div className="pokedexId__statslist__info" 
                    style={{ width: `${(statInfo.base_stat / 150) * 100}%`}}
               >
-                  {statInfo.base_stat}/150
+                 <p className="pokedexId__baseinfo">{statInfo.base_stat}/150</p> 
               </div>
             </div>
               

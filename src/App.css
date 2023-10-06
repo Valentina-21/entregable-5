@@ -391,6 +391,7 @@
 
 .pokedexId__statslist {
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -403,10 +404,14 @@
 
 .pokedexId__statslist__info {
     display: flex;
+    flex-direction: column;
     margin-top: 1em;
     font-size: 18px;
     font-weight: 600;
-    justify-content: flex-start;
+}
+.pokedexId__baseinfo {
+    display: flex;
+    margin-right: 8em;
 }
 
 .pokedexId__stats__bar {
