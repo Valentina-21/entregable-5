@@ -408,10 +408,10 @@
     margin-top: 1em;
     font-size: 18px;
     font-weight: 600;
+    width: 100px;
 }
 .pokedexId__baseinfo {
     display: flex;
-    margin-right: 8em;
 }
 
 .pokedexId__stats__bar {
