@@ -5,9 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const HomePage = () => {
   const inputTrainer = useRef();
-
   const dispatch = useDispatch();
-
   const navigate = useNavigate();
 
   const handleTrainer = (e) => {
@@ -17,7 +15,7 @@ const HomePage = () => {
   };
 
   return (
-    <div>
+    <section className="homepage">
       <header className="homepage__header">
         <img
           className="homepage__header__img"
@@ -25,16 +23,16 @@ const HomePage = () => {
           alt=""
         />
       </header>
-      <body className="homepage__body">
+      <div className="homepage__body">
         <h2 className="homepage__title">Hi Trainer!</h2>
         <p className="homepage__subtitle">
-          To star, please, enter your trainer name
+          To start, please enter your trainer name
         </p>
         <form className="homepage__form" onSubmit={handleTrainer}>
           <input className="homepage__input" ref={inputTrainer} type="text" />
-          <button className="homepage__button">Star!</button>
+          <button className="homepage__button">Start!</button>
         </form>
-      </body>
+      </div>
       <footer className="homepage__footer">
         <img
           className="homepage__footer__img"
@@ -42,7 +40,7 @@ const HomePage = () => {
           alt=""
         />
       </footer>
-    </div>
+    </section>
   );
 };
 
