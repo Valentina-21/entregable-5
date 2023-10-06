@@ -3,7 +3,8 @@ import { useEffect, useRef, useState } from "react"
 import PokeCard from "../components/PokedexPage/PokeCard"
 import SelectType from "../components/PokedexPage/SelectType"
 import Pagination from "../components/PokedexPage/Pagination"
-import useFetch from "../hooks/UseFetch.js";
+import useFetch from "../hooks/UseFetch"
+
 
 const PokedexPage = () => {
 
@@ -52,7 +53,7 @@ const PokedexPage = () => {
   const handleCardsPerPageChange = (e) => {
     const newCardsPerPage = parseInt(e.target.value, 10)
     setIsLoading(true)
-    if (!isNaN(newCardsPerPage) && newCardsPerPage >= 0) {
+    if (!isNaN(newCardsPerPage) && newCardsPerPage > 0) {
       setCardsPerPage(newCardsPerPage)
       setCurrentPage(1)
       setHasError(false)
