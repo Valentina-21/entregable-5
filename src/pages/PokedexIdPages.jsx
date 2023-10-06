@@ -15,8 +15,8 @@ const PokedexIdPages = () => {
   return (
     <div>
       <header className="pokedexId__header">
-       <img className="pokedexId__img1" src="/public/images/header.png" />
-       <img className="pokedexId__img2" src="./public/images/pokedex.png" alt="" />
+       <img className="pokedexId__img1" src="/images/header.png" />
+       <img className="pokedexId__img2" src="/images/pokedex.png" alt="" />
       </header>
       <div className="pokedexId__img__container">
       <img
