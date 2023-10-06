@@ -29,7 +29,6 @@ const PokedexPage = () => {
     }
   }, [typeSelected])
 
-  console.log(pokemons)
   const handleSearch = e => {
      e.preventDefault()
      setInputValue(inputSearch.current.value.trim().toLowerCase())

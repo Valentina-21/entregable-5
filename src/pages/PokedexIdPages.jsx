@@ -12,8 +12,6 @@ const PokedexIdPages = () => {
     getPokemon();
   }, [id]);
 
-  console.log(pokemon);
-
   return (
     <div>
       <header className="pokedexId__header">
