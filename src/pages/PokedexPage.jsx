@@ -3,7 +3,7 @@ import { useEffect, useRef, useState } from "react"
 import PokeCard from "../components/PokedexPage/PokeCard"
 import SelectType from "../components/PokedexPage/SelectType"
 import Pagination from "../components/PokedexPage/Pagination"
-import useFetch from "../hooks/UseFetch"
+import useFetch from "../hooks/useFetch"
 
 
 

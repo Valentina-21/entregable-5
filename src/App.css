@@ -415,7 +415,6 @@
 }
 
 .pokedexId__stats__bar {
-    width: 100%;
     margin-top: 3em;
     height: 18px;
     background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
