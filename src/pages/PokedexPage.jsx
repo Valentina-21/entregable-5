@@ -58,8 +58,8 @@ const PokedexPage = () => {
       setCurrentPage(1)
       setHasError(false)
     }else{
-      setCardsPerPage(0)
-      setCurrentPage(0)
+      setCardsPerPage(newCardsPerPage)
+      setCurrentPage(1)
       setHasError(true)
     }
     setIsLoading(false)
